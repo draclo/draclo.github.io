@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[포스팅 예시] 이곳에 제목을 입력하세요",
-        "excerpt":"🦥 본문   본문은 여기에 …  ","categories": ["Spring Security"],
+        "excerpt":"##   ","categories": ["Spring Security"],
         "tags": ["tag1","tag2"],
         "url": "/spring-security/authorization-1/",
         "teaser": null
