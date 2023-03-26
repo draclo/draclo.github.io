@@ -1,6 +1,6 @@
 ---
-title: "[포스팅 예시] 이곳에 제목을 입력하세요"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+title: "[인가] 권한 체크 내부 프로세스"
+excerpt: "인가 처리를 위한 권한 체크 내부 프로세스 정리"
 
 categories:
   - Spring Security
