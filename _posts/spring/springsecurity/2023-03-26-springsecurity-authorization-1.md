@@ -16,6 +16,10 @@ date: 2023-03-26
 last_modified_at: 2023-03-26
 ---
 
-## 
+## 스프링 시큐리티 인가 처리
+1. 사용자 - 인증 정보
+2. 자원 - 요청 정보
+3. 권한 - 권한 정보
 
+<img src="/assets/images/posts_img/springsecurity-authorization-1/img.png" alt="pair1" width="50%">
 

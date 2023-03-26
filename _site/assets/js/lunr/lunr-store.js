@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[포스팅 예시] 이곳에 제목을 입력하세요",
-        "excerpt":"##   ","categories": ["Spring Security"],
+        "excerpt":"스프링 시큐리티 인가 처리     사용자 - 인증 정보   자원 - 요청 정보   권한 - 권한 정보      ","categories": ["Spring Security"],
         "tags": ["tag1","tag2"],
         "url": "/spring-security/authorization-1/",
         "teaser": null
