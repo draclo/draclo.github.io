@@ -44,6 +44,6 @@ last_modified_at: 2023-03-26
    2. 메소드 권한 정보 추
       + MethodSecurityMetadataSource
 
-<img src="/assets/images/posts_img/springsecurity-authorization-1/db_role.png"></img>
+<img src="/assets/images/posts_img/springsecurity/db_role.png"></img>
 
 
