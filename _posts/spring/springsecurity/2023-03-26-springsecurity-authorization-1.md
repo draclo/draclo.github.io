@@ -18,7 +18,7 @@ last_modified_at: 2023-03-26
 
 ## 스프링 시큐리티 인가 처리
 
-<img src="/assets/images/posts_img/springsecurity-authorization-1/role_to_map.png"></img>
+<img src="/assets/images/posts_img/springsecurity/role_to_map.png">
 
 인가 처리를 하기 위해서는 아래의 세가지 정보가 필요하다.
 1. 사용자 - 인증 정보
@@ -44,6 +44,6 @@ last_modified_at: 2023-03-26
    2. 메소드 권한 정보 추
       + MethodSecurityMetadataSource
 
-<img src="/assets/images/posts_img/springsecurity/db_role.png"></img>
+<img src="/assets/images/posts_img/springsecurity/db_role.png">
 
 
