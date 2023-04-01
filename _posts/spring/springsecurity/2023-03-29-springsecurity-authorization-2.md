@@ -7,7 +7,7 @@ categories:
 tags:
   - [tag1, tag2]
 
-permalink: /spring-security/authorization-2/
+permalink: /springsecurity/authorization-2/
 
 toc: true
 toc_sticky: true
@@ -53,8 +53,7 @@ public FilterSecurityInterceptor customFilterSecurityInterceptor() throws Except
 }
 ```
 
-#### AccessDecisionManager 결정을 내리는 인터페이스로, 구현체 3가지를 기본으로 제공한다.
-
+AccessDecisionManager 결정을 내리는 인터페이스로, 구현체 3가지를 기본으로 제공한다.   
 - AffirmativeBased : 여러 Voter 중에 한명이라도 허용하면 허용, 기본전략
 - ConsensusBased : 다수결
 - UnanimousBased : 만장일치
