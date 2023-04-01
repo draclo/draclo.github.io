@@ -28,4 +28,10 @@ var store = [{
         "tags": ["tag1","tag2"],
         "url": "/springsecurity/authorization-2/",
         "teaser": null
+      },{
+        "title": "인가 프로세스 DB 연동 (2)",
+        "excerpt":"[DB 연동] Url 권한 체크 1. UrlResourcesMapFactoryBean DB로 부터 얻은 권한/자원 정보를 ResourceMap 빈으로 생성해서 이전 시간에 만든 필터인 UrlFilterInvocationSecurityMetadataSource 에 전달 UrlResourcesMapFactoryBean 클래스를 생성하고 public class UrlResourcesMapFactoryBean implements FactoryBean&lt;LinkedHashMap&lt;RequestMatcher, List&lt;ConfigAttribute&gt;&gt;&gt; { private SecurityResourceService securityResourceService; private LinkedHashMap&lt;RequestMatcher, List&lt;ConfigAttribute resourceMap; public void setSecurityResourceService(SecurityResourceService securityResourceService) { this.securityResourceService = securityResourceService; } @Override public...","categories": ["Spring Security"],
+        "tags": ["tag1","tag2"],
+        "url": "/springsecurity/authorization-3/",
+        "teaser": null
       }]
