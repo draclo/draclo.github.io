@@ -34,4 +34,10 @@ var store = [{
         "tags": ["tag1","tag2"],
         "url": "/springsecurity/authorization-3/",
         "teaser": null
+      },{
+        "title": "인가 처리 실시간 반영",
+        "excerpt":"[DB 연동] 인가 처리 실시간 반영 DB 데이터의 권한/리소스 정보가 변경되었을 경우 변경된 권한/리소스로 실시간 반영하여 인가 처리한다. UrlFilterInvocationSecurityMetadataSource 클래스에 변경된 권한/리소스를 실시간 반영할 reload 메서드 생성 public void reload() { LinkedHashMap&lt;RequestMatcher, List&lt;ConfigAttribute&gt;&gt; reloadedMap = securityResourceService.getResourceList(); Iterator&lt;Map.Entry&lt;RequestMatcher, List&lt;ConfigAttribute&gt;&gt;&gt; iterator = reloadedMap.entrySet().iterator(); requestMap.clear(); while (iterator.hasNext()) { Map.Entry&lt;RequestMatcher, List&lt;ConfigAttribute&gt;&gt; entry = iterator.next();...","categories": ["Spring Security"],
+        "tags": ["tag1","tag2"],
+        "url": "/springsecurity/authorization-4/",
+        "teaser": null
       }]
