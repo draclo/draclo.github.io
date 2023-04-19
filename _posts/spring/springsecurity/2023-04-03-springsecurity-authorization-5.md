@@ -104,11 +104,11 @@ public class PermitAllFilter extends FilterSecurityInterceptor {
 + 다음으로 SecurityConfig 설정 클래스 수정
 
 ```java
+    private String[] permitAllResources = {"/", "/login", "/user/login/**"};
+
     @Bean
     public PermitAllFilter customFilterSecurityInterceptor() throws Exception {
-        // FilterSecurityInterceptor -> PermitAllFilter 로 변경
-        PermitAllFilter permitAllFilter = new FilterSecurityInterceptor();
-        //FilterSecurityInterceptor filterSecurityInterceptor = new FilterSecurityInterceptor();
+        PermitAllFilter permitAllFilter = new PermitAllFilter(permitAllResources);
         permitAllFilter.setSecurityMetadataSource(urlFilterInvocationSecurityMetadataSource());
         permitAllFilter.setAccessDecisionManager(affirmativeBased());
         permitAllFilter.setAuthenticationManager(authenticationManagerBean());
