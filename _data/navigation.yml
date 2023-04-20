@@ -30,4 +30,7 @@ categories:
         url: /jpa/spring-data-jpa/
       - title: "Query DSL"
         url: /jpa/query-dsl/
-
+  - title: "Algorithm"
+    children:
+      - title: "Programmers"
+        url: /algorithm/programmers

@@ -7,7 +7,7 @@ categories:
 tags:
   - [tag1, tag2]
 
-permalink: /springsecurity/authorization-5/
+permalink: /springsecurity/authorization/5/
 
 toc: true
 toc_sticky: true
