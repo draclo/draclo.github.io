@@ -48,7 +48,7 @@ var store = [{
         "teaser": null
       },{
         "title": "달리기 경주",
-        "excerpt":"달리기 경주 문제 풀이 import java.util.*; class Solution { public String[] solution(String[] players, String[] callings) { String[] answer = {}; // 현재 순위 저장 Map&lt;String, Object&gt; playerMap = new HashMap&lt;&gt;(); for (int i=0; i&lt;players.length; ++i) { playerMap.put(players[i], i); } // 추월한 횟수 for (String name : callings) { // 추월하기...","categories": ["Programmers"],
+        "excerpt":"문제 풀이 import java.util.*; class Solution { public String[] solution(String[] players, String[] callings) { String[] answer = {}; // 현재 순위 저장 Map&lt;String, Object&gt; playerMap = new HashMap&lt;&gt;(); for (int i=0; i&lt;players.length; ++i) { playerMap.put(players[i], i); } // 추월한 횟수 for (String name : callings) { // 추월하기 전 현재...","categories": ["Programmers"],
         "tags": ["tag1","tag2"],
         "url": "/algorithm/level1/1/",
         "teaser": null
